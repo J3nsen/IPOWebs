@@ -1,0 +1,221 @@
+/* Style the header: fixed position (always stay at the top) */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
+  background-color: #212529;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0px;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* The progress container */
+.progress-container {
+  width: 100%;
+  height: 4px;
+  background: #212529;
+
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 4px;
+  background: #7e8d9a;
+  width: 0%;
+
+}
+
+/* Contenedor de los vídeos */
+.videoDIV {
+
+  width: auto;
+  height: 500px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+/* Dimensiones de los vídeos */ 
+.videoMedia {
+
+  width: 50%;
+  height: 100%;
+}
+
+
+html {
+
+    background-color: #212529;
+    color: #d0dbe5;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.section_title {
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.need_title {
+
+  font-style: italic;
+
+}
+
+a {
+
+  text-decoration: none; /* Sobreescribo el diseño de los links con mi propio diseño */
+  word-wrap: break-word; /* Para que los links respeten el diseño responsive */
+
+}
+
+a:link {
+
+  color: #dee2e6;
+
+}
+
+a:visited {
+
+  color: #a9b3bc;
+
+}
+
+a:hover {
+
+  color: #c6ccd2;
+
+}
+
+/* Para centrar la imagen del segundo gadget */
+.centerIMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#iconoBarra {
+
+  margin-left: 10px;
+  font-size: 17px;
+  margin-left: 50%;
+  text-align: center;
+
+}
+
+.needDiv {
+
+  border: 0.4px solid #d0dbe5;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+p, h1, h2, h3 {
+
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+p {
+
+  text-indent: 15px;
+  text-align: justify;
+}
+
+
+/* Menú de navegación */
+#navIcons {
+
+  position: sticky; 
+  top: 0; 
+  z-index: 2;
+  size: 17px;
+  text-align:center;
+
+
+}
+
+#openNavIcon {
+ 
+  position: sticky; 
+  top: 0; 
+
+
+  text-align:center;
+  float: left;
+  width: auto;
+  height: auto;
+
+  /* Círculo */
+  border: 1px solid #d0dbe5;
+  border-radius: 100%;
+  margin-right: 7px; /*space between*/
+  display: flex;
+  align-items: flex-start;
+  background-color: #1a1a1a;
+
+}
+
+.openIconSpan {
+
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+
+
+/* The side navigation menu */
+.sidenav {
+
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #212529;
+  overflow:hidden; /* Disable horizontal scroll */
+  padding-top: 25px; /* Place content 25px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+  white-space: nowrap;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #dee2e6;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #c6ccd2;
+}
+
+.sidenav a:visited {
+  color: #a9b3bc;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  float: right;
+}

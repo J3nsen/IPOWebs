@@ -1,0 +1,6 @@
+- Diseño sencillo: Barra flotante como utilidad
+- Pretende evocar lo que sería un guión de cine -> se respetan los aspectos de diseño de un guión de cine (insertar imagen distancias)
+- Color sepia de fondo: color antiguo de las películas de cine
+- Courier new: guión escrito a máquina
+- Añadidos ids a clases ya definidas en la plantilla para asemejarlos a elementos de un guión de cine
+-> AÑADIR REFERENCIAS AL FINAL DE LA PAGINA (LINKS A TUTORIALES)

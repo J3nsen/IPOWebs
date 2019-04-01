@@ -1,0 +1,10 @@
+-> Diseño en bloques con esquinas redondeadas.
+-> Cada bloque de texto puede ser como una notificación de MIUI 10
+-> Los bloques aparecen progresivamente al ir scrolleando
+-> Modo nocturno, muy de moda actualmente (esquema de color)
+-> Barra de progreso de lectura
+-> Iconos de Google
+
+-> INTENTAR CAMBIAR COLOR BACKGROUND BOTON ABRIR MENU LATERAL A NEGRO SOLIDO (OPACIDAD 100%)
+-> REVISAR DISEÑO EN GENERAL
+-> CAMBIAR COLORES DE LOS LINKS DENTRO DEL MENU LATERAL

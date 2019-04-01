@@ -1,0 +1,119 @@
+/* Javier Jiménez García */
+
+
+/* Tamaño horizontal de una hoja DINA4 en pulgadas: 8.25 */
+/* https://www.pixelto.net/inches-to-px-converter */
+
+
+/* Contenedor de los vídeos */
+.videoDIV {
+
+	width: auto;
+	height: 500px;
+
+}
+
+/* Dimensiones de los vídeos */ 
+.videoMedia {
+
+	width: 50%;
+	height: 100%;
+}
+
+.headerBar {
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #fafad3;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  border-top-width: 5px; /* Para evitar que los iconos se queden excesivamente unidos a la barra de URL del navegador */
+
+  /* Para que solo aparezca un borde inferior negro pongo todos los demás al mismo color que el fondo */
+  border-top-color: #fafad3;
+  border-right-color: #fafad3;
+  border-left-color: #fafad3;
+
+}
+
+#iconoBarra {
+
+	margin-left: 10px;
+
+}
+
+#slugline {
+
+	margin-left: 144px; /* 1.5 pulgadas en px a 96 dpi de resolución */
+	margin-right: 72px; /* 8.25 - 7.5 = 0.75 pulgadas en px a 96 dpi de resolución */
+	font-weight: bold; /* Negrita */
+
+}
+
+#slugline_content {
+
+	margin-left: 144px; /* 1.5 pulgadas en px a 96 dpi de resolución */
+	text-indent: 15px; /* Sangría */
+	margin-right: 72px; /* 8.25 - 7.5 = 0.75 pulgadas en px a 96 dpi de resolución */
+	text-align: justify;
+
+}
+
+#character_name {
+
+	margin-left: 336px; /* 3.5 pulgadas en px a 96 dpi de resolución */
+
+}
+
+#dialog {
+
+	margin-left: 240px; /* 2.5 pulgadas en px a 96 dpi de resolución */
+	margin-right: 264px; /* 8.25 - 5.5 = 2.75 pulgadas en px a 96 dpi de resolución */
+	text-indent: 15px;
+	text-align: justify;
+
+}
+
+#pageNo {
+
+	/*margin-left: 576px; /* 6 pulgadas en px a 96 dpi de resolución */
+	text-align: right;
+	font-weight: bold; /* Negrita */
+
+}
+
+
+html {
+
+	background-color: LightGoldenRodYellow; /*#FAFAD2*/
+	font-family: "Courier New", Courier, monospace;
+
+}
+
+a {
+
+	text-decoration: none; /* Sobreescribo el diseño de los links con mi propio diseño */
+	word-wrap: break-word; /* Para que los links respeten el diseño responsive */
+}
+
+a:link {
+
+	color: grey;
+
+}
+
+a:visited {
+
+	color: black;
+
+}
+
+a:hover {
+
+	color: #5a5a0c;
+
+}
+

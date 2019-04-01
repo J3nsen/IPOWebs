@@ -1,0 +1,215 @@
+﻿/* Contenedor de los vídeos */
+.videoDIV {
+
+    width: auto;
+    height: 500px;
+
+}
+
+/* Dimensiones de los vídeos */ 
+.videoMedia {
+
+    width: 75%;
+    height: 100%;
+}
+
+
+html {
+
+    background-color: #282828;
+    font-family: "Ubuntu Mono";
+
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+
+
+header {
+
+    height: auto;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 40%;
+    text-align: center;
+
+    /* Centrado de la barra de navegación */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: #ff2400; /* Red Scarlett - Escarlata roja */
+    background-color: black;
+
+    border-right: 1px dotted #00ff00; 
+    border-left: 1px dotted #00ff00;
+    border-bottom: 1px dotted #00ff00;
+}
+
+.nav-up {
+    top: -10%;
+}
+
+#elementoHeader {
+
+    margin-left: 1px;
+    margin-right: 1px;
+
+}
+
+.section, .section_text, .referencias {
+
+    text-align: center;
+}
+
+a {
+
+  text-decoration: none; /* Sobreescribo el diseño de los links con mi propio diseño */
+  word-wrap: break-word; /* Para que los links respeten el diseño responsive */
+  color: #ff2400; /* Red Scarlett - Escarlata roja */
+
+}
+
+a:hover {
+
+    color: #00ff00;
+
+}
+
+a:visited {
+
+    color: #66ff66;
+}
+
+
+
+/* Estilos recomendados por cssfontstack.com */ /* Los colores han sido añadidos por mi cuenta */
+h2 { 
+
+    font-family: "Ubuntu Mono";
+    font-size: 24px; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: #00b300;
+}
+
+h3 {
+
+    font-family: "Ubuntu Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 600;
+    line-height: 15.4px; 
+    color: #00e600;
+}
+
+p { 
+
+    font-family: "Ubuntu Mono"; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    color: #00ff00;
+
+    text-indent: 15px;
+    text-align: center;
+}
+
+span, li {
+
+    font-family: "Ubuntu Mono"; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+    color: #33ff33;
+}
+
+/* Animación de los gatos */
+div.anim:first-of-type {
+ /* For increasing performance 
+    ID/Class should've been used. 
+    For a small demo 
+    it's okaish for now */
+        animation: showup 7s infinite;
+}
+
+div.anim:last-of-type {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+div.anim:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -2800px;
+    }
+
+    20% {
+        margin-left: -2800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 100%;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 100%;
+    }
+}
